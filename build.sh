@@ -1,6 +1,6 @@
 #!/bin/bash
 OS=`uname -s`
-PLATFORM_WINDOWS="Windows_NT"
+PLATFORM_WINDOWS="windows32"
 PLATFORM_LINUX="Linux"
 PLATFORM_MACOSX="Darwin"
 GYP=./lib/libuv/build/gyp/gyp
