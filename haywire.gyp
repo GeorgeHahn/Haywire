@@ -27,6 +27,10 @@
           'src/haywire/http_server.h',
           'src/haywire/http_server.c'
         ],
+        
+        'cflags': [
+          '-std=c99',
+        ]
       }, # haywire static library
 
       ########################################
